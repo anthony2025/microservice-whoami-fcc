@@ -3,7 +3,7 @@ const app = require('express')()
 
 app.get('/', function(req, res){
     let response = {}
-    res.send(req.connection.remoteAddress);
+    res.json(req.ip);
 });
 
 app.listen(PORT, () => console.log('App running on port: ' + PORT))
