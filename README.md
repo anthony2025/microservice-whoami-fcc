@@ -1,18 +1,16 @@
-Tiny Node microservice that returns the current timestamp, built as part of the FreeCodeCamp curricula.
+Tiny Node microservice that returns some client data, built as part of the FreeCodeCamp curricula.
 
 Live at: https://timestamp-unix-fcc.herokuapp.com/
 
 ## User stories
-* I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)
-* If it does, it returns both the Unix timestamp and the natural language form of that date.
-* If it does not contain a date or Unix timestamp, it returns null for those properties.
+* I can get the IP address, language and operating system for my browser
 
 ### Example usage
-* https://timestamp-ms.herokuapp.com/December%2015,%202015
-* https://timestamp-ms.herokuapp.com/1450137600
+* https://microservice-whoami-fcc.herokuapp.com/
 
 ### Example output
 {
-  "unix": 1450137600,
-  "natural": "December 15, 2015"
+  "ipaddress": "128.98.134.43",
+  "language": "en-US",
+  "software": "Apple Mac, macOS Sierra"
 }
