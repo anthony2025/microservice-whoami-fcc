@@ -2,9 +2,7 @@ const PORT = process.env.PORT || 4000
 const app = require('express')()
 
 app.get('/', function(req, res){
-    let response = {
-      browser: req.useragent.browser
-    }
+    let response = {}
     res.send(req.connection.remoteAddress);
 });
 
