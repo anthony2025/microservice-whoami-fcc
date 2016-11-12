@@ -1,6 +1,6 @@
 Tiny Node microservice that returns some client data, built as part of the FreeCodeCamp curricula.
 
-Live at: https://timestamp-unix-fcc.herokuapp.com/
+Live at: https://microservice-whoami-fcc.herokuapp.com/
 
 ## User stories
 * I can get the IP address, language and operating system for my browser
