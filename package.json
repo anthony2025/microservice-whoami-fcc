@@ -1,5 +1,5 @@
 {
-  "name": "timestamp-api-fcc",
+  "name": "microservice-whoami-fcc",
   "version": "0.1.0",
   "main": "app.js",
   "dependencies": {
