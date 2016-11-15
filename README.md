@@ -2,7 +2,7 @@ Tiny Node microservice that returns some client data, built as part of the FreeC
 
 Live at: https://microservice-whoami-fcc.herokuapp.com/
 
-## User stories
+### User stories
 * I can get the IP address, language and operating system for my browser
 
 ### Example usage
